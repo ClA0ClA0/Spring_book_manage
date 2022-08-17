@@ -1,1 +1,12 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: cia0cia0@163.com
+    password: JZQREFCORXQSDFTS
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_manage_boot
+    username: root
+    password: wdmm8611
+  mvc:
+    static-path-pattern: /static/**
 
