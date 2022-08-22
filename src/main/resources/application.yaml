@@ -9,4 +9,8 @@ spring:
     password: wdmm8611
   mvc:
     static-path-pattern: /static/**
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
 
