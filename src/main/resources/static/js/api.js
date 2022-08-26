@@ -1,4 +1,4 @@
-function askVerifyCode() {//¶ÔÓ¦registerÒ³Ãæid×Ö¶Îemail
+function askVerifyCode() {
     $.get('/api/auth/verify-code', {
         email: $("#email").val()
     }, function (data) {
